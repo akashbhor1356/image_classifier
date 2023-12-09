@@ -1,6 +1,4 @@
 
-Certainly! Here's a sample README file outlining the steps to set up and run the AI model, web service, and Kubernetes deployment for your project:
-
 AI Model Deployment Pipeline
 This repository contains code and instructions to set up a simple AI model deployment pipeline using Docker, Kubernetes, and a basic web service.
 
