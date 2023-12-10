@@ -5,10 +5,10 @@ FROM pytorch/pytorch:latest
 WORKDIR /app
 
 # Copy the Python script containing your code into the container
-COPY your_script.py /app/your_script.py
+COPY flask_app.py /app/flask_app.py
 
 # Install any necessary dependencies (if not already installed in the base image)
 RUN pip install torchvision matplotlib pillow
 
 # Set the command to run your script when the container starts
-CMD ["python", "your_script.py"]
+CMD ["python", "flask_app.py"]
